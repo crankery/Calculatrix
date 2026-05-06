@@ -1,0 +1,50 @@
+# === C / C++ ===
+# Object files and libraries
+*.o
+*.obj
+*.lib
+*.a
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug symbols
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directories (common naming)
+[Bb]uild/
+
+# === KiCad ===
+# Temporary and backup files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*-cache*
+_autosave-*
+*.tmp
+fp-info-cache
+*.lck
+
+# Project-specific local settings (should not be shared)
+*.kicad_prl
+
+# Netlist and Autorouter files
+*.net
+*.dsn
+*.ses
+
+# Exported manufacturing files (optional: keep if you want to track releases)
+*.xml
+*.csv
+# gerber/  <-- Uncomment if you want to ignore your Gerber output folder
+
