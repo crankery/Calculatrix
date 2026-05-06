@@ -1,0 +1,3 @@
+[submodule "src/MCS6502"]
+	path = src/MCS6502
+	url = git@github.com:bzotto/MCS6502.git
