@@ -2,7 +2,7 @@ BIN_DIR := bin
 
 VASM_DIR := vasm
 VASM_REL := http://sun.hasenbraten.de/vasm/release/vasm.tar.gz
-VASM := vasm6502_oldstyle
+VASM := vasm6502_std
 VOBJDUMP := vobjdump
 
 TARGET_VASM := $(BIN_DIR)/$(VASM)
@@ -32,7 +32,7 @@ $(TARGET_VOBJDUMP): $(VASM_OUT)
 	cp $(VOBJDUMP_OUT) $(TARGET_VOBJDUMP)
 
 $(VASM_OUT): $(VASM_DIR)
-	$(MAKE) -C $(VASM_DIR) CPU=6502 SYNTAX=oldstyle
+	$(MAKE) -C $(VASM_DIR) CPU=6502 SYNTAX=std
 	
 $(BIN_DIR):
 	mkdir -p $(BIN_DIR)
