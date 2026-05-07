@@ -48,3 +48,4 @@ fp-info-cache
 *.csv
 # gerber/  <-- Uncomment if you want to ignore your Gerber output folder
 
+.DS_Store
